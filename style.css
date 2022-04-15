@@ -1,0 +1,288 @@
+.main-container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+
+    height: auto;
+    width: 100%;
+   
+    background-color: #DFF2F2
+    ;
+}
+@media (max-width:1080px){
+    .container{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+}
+.grid{
+    margin: 50px;
+    display: flex;
+    justify-content:space-between; 
+    flex-wrap: wrap;
+    column-gap:20px;
+    
+}
+#radiology,#ambulance,#dental,#surgical,#parturition,#hostel{
+    width: 300px;
+    height: 200px;
+   box-shadow: 10px 20px 8px #888888;
+    background: white;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    margin: 50px;
+    text-align: justify;
+    max-width: 100%;
+  height: auto;
+  
+}
+.fa{
+    font-size: 30px;
+    color:#1ba0ab;
+    margin-top: 10px;
+}
+.icon{
+    display: flex;
+    background-color: #e9fafc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    
+    
+}
+.service-title{
+display: flex;
+width: 100%;
+height: auto;
+column-gap: 400px;
+padding: 0px 10px 0px 10px;
+
+
+
+}
+@media (max-width:1080px){
+    .service-title{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.service-title >p{
+    position: relative;
+    left: 900px;
+}
+ .doc-grid{
+     display: flex;
+     justify-content: space-between;
+     column-gap: 20px;
+     flex-wrap: wrap;
+     overflow: hidden;
+ }
+ .doc-1 >img{
+     border-radius: 20px;
+     box-shadow: 10px 20px 8px #888888;
+
+ }
+ @media (max-width:1080px){
+    .service-title >p{
+        max-width: 100%;
+        height: auto;
+        float: right;
+    }
+}
+ .doc-1{
+     text-align: center;
+     line-height: 2px;
+ }
+ @media (max-width :800px) {
+     .grid{
+         max-width: 100%;
+         height: auto;
+     }
+ }
+ .title{
+     flex-shrink: 1;
+     width: 500px;
+ }
+ .desc{
+     text-align: left;
+     width: 100%;
+    
+     
+ }
+input[type="text"]{
+    border: 0.5px solid grey;
+    width: 400px;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #CAD2BC;
+}
+button{
+    height: 40px;
+    background:  #1ba0ab;
+    color: white;
+    padding: 0 15px;
+    letter-spacing: 1.2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #CAD2BC;
+    
+}
+.container-sub{
+    display: flex;
+    width: 100%;
+    background-color: #e9fafc;
+    padding: auto ;
+    height: auto;
+    justify-content: center;
+   
+}
+.subscriber{
+    width: 75%;
+
+}
+@media (max-width :800px) {
+    .subscriber{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.social-icons > .fa{
+    font-size: 20px;
+
+}
+footer{
+    padding-top: 30px;
+    display: flex;
+    column-gap: 250px;
+    justify-content: center;
+}
+@media (max-width:1080px){
+    footer{
+        max-width: 100%;
+        height: auto;
+    
+    }
+}
+.footer-grid >ul{
+text-decoration: none;
+list-style: none;
+line-height: 180%;
+text-align: left;
+color: #888888;
+
+
+
+}
+.footer-grid{
+    text-align: center;
+}
+.review-grid{
+    display: flex;
+}
+.review{
+    padding: 10px 40px 10px 40px;
+}
+.fa-facebook-official{
+    color: #4267B2;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+.fa-google-plus{
+    color: #DD4B39;
+
+}
+.fa-linkedin{
+    color:#0072b1 ;
+}
+.review2{
+    border-left: 2px solid green;
+}
+.fa-quote-left{
+    opacity: 0.2;
+}
+.line{
+    display: flex;
+    align-items:flex-start;
+}
+.line>hr{
+    height: 2px;
+    width: 50px;
+    background-color: red;
+}
+nav >ul{
+    list-style: none;
+    text-decoration:none;
+    font-size: larger;
+    
+   
+}
+.header-image{
+    position: relative;
+    border:  solid rgb(67, 142, 145);
+   height: 400px;
+    width: 500px;
+    border-radius: 100%;
+    border-width: 90px;
+    border-bottom: center;
+    
+}
+.header-image>img{
+    position:relative;
+    left: 70px;
+    top: 40px;
+    border-radius: 25px;
+    
+}
+.header-flex{
+    display: flex;
+    column-gap: 300px;
+    padding: 20px;
+}
+.header-desc{
+    letter-spacing: 2px;
+    line-height: 300%;
+}
+.header-ttl{
+    display: flex;
+    column-gap: 600px;
+    padding: 20px;
+}
+nav >ul >li{
+   display: inline;
+   padding: 20px;
+   color: black;
+   padding-left: 10px;
+   
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:hover;
+    display: inline;
+    
+    
+}
+.header-image{
+    border-radius: 50%;
+}
+.section1{
+    display: flex;
+    background-color: aliceblue;
+     box-shadow: 5px 5px 10px #CAD2BC;
+    border: 1px solid gray;
+     border-width: 0px;
+     
+}
