@@ -60,7 +60,7 @@
 .service-title{
 display: flex;
 width: 100%;
-height: auto;
+height:50% ;
 column-gap: 400px;
 padding: 0px 10px 0px 10px;
 
@@ -277,6 +277,7 @@ nav ul li a{
 }
 .header-image{
     border-radius: 50%;
+
 }
 .section1{
     display: flex;
