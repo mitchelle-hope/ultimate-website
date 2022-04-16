@@ -8,7 +8,7 @@
 .container{
 
     height: auto;
-    width: 100%;
+    width: auto;
    
     background-color: #DFF2F2
     ;
@@ -60,7 +60,7 @@
 .service-title{
 display: flex;
 width: 100%;
-height:50% ;
+height:50px ;
 column-gap: 400px;
 padding: 0px 10px 0px 10px;
 
@@ -118,11 +118,15 @@ padding: 0px 10px 0px 10px;
  }
 input[type="text"]{
     border: 0.5px solid grey;
-    width: 400px;
-    height: 40px;
+    width: 800px;
+    height: 80px;
     padding: 0 20px;
     border-radius: 30px;
     box-shadow: 5px 5px 10px #CAD2BC;
+}
+input[type="submit"]{
+    height: 120px;
+    width: 100%;
 }
 button{
     height: 40px;
@@ -141,8 +145,9 @@ button{
     width: 100%;
     background-color: #e9fafc;
     padding: auto ;
-    height: auto;
+    height: 250px;
     justify-content: center;
+    
    
 }
 .subscriber{
@@ -243,6 +248,8 @@ nav >ul{
     border-radius: 25px;
     
 }
+
+
 .header-flex{
     display: flex;
     column-gap: 300px;
@@ -251,6 +258,7 @@ nav >ul{
 .header-desc{
     letter-spacing: 2px;
     line-height: 300%;
+    
 }
 .header-ttl{
     display: flex;
@@ -286,4 +294,13 @@ nav ul li a{
     border: 1px solid gray;
      border-width: 0px;
      
+}
+.section1{
+    text-align: left;
+    font-weight: 2px;
+    box-shadow: 5px 5px 10px #CAD2BC;
+    box-sizing: inherit;
+    font-style: normal;
+    background-image: hover;
+    image-rendering: optimizeQuality;
 }
